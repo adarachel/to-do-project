@@ -48,7 +48,7 @@ input {
 }
 
 .container {
-  background-color: magenta;
+  background-color: gray;
   width: 100%;
   max-width: 500px;
   box-shadow: 3px 10px 10px rgba(75, 72, 72, 0.219), -5px 0 7px rgba(75, 72, 72, 0.219);
@@ -100,7 +100,7 @@ form {
 }
 
 .clear button {
-  color: magenta;
+  color: white;
   font-size: large;
   font-weight: 800;
   border: none;
