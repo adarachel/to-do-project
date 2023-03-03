@@ -31,5 +31,5 @@
     "lodash": "^4.17.21",
     "save-dev": "^0.0.1-security",
     "webpack-cli": "^4.10.0"
- }
+  }
 }

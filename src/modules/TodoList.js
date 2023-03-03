@@ -1,14 +1,14 @@
 class Todos {
   constructor() {
     this.todos = JSON.parse(localStorage.getItem('todos')) || [];
-}
-  
-addTodo(todo) {
+  }
+
+  addTodo(todo) {
     this.todos.push(todo);
-    localStorage.setItem('todos', JSON.stringify(this.todos));
-}
+  localStorage.setItem('todos', JSON.stringify(this.todos));
+  }
   
-updateTodo(id, newTodo) {
+  updateTodo(id, newTodo) {
     this.todos[id - 1] = newTodo;
     for (let i = 0; i < this.todos.length; i += 1) {
       this.todos[i].id = i + 1;
@@ -26,7 +26,7 @@ updateTodo(id, newTodo) {
 
   deleteTodo(index) {
     if (this.todos.length === 1) {
-    this.todos = [];
+      this.todos = [];
     } else {
       this.todos.splice(index, 1);
     }
@@ -35,7 +35,7 @@ updateTodo(id, newTodo) {
     }
     localStorage.setItem('todos', JSON.stringify(this.todos));
   }
-  
+
   clearAllTodos() {
     const filteredTodos = this.todos.filter((todo) => !todo.completed);
     this.todos = filteredTodos;
