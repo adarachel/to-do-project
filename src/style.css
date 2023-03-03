@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(105, 100, 100, 0.575);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+i {
+  font-size: 1.2rem;
+  color: rgb(116, 110, 110);
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1em;
+  position: relative;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: magenta;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 3px 10px 10px rgba(75, 72, 72, 0.219), -5px 0 7px rgba(75, 72, 72, 0.219);
+  gap: 0.5rem;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0.8em 0.4em 1em;
+}
+
+form {
+  align-items: center;
+  padding-right: 0.8em;
+}
+
+.enter-text {
+  font-style: italic;
+}
+
+.empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  padding: 1em;
+}
+
+.todo {
+  align-items: center;
+  position: relative;
+  padding-right: 0.8em;
+  justify-content: space-between;
+}
+
+.todo .box {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 3%;
+  z-index: 7;
+}
+
+.todo input {
+  width: 90%;
+  padding-left: 2.5rem;
+  color: purple;
+  font-size: larger;
+}
+
+.clear button {
+  color: magenta;
+  font-size: large;
+  font-weight: 800;
+  border: none;
+  width: 100%;
+  padding: 1.4em 0;
+  background-color: rgb(0, 14, 14);
+  cursor: pointer;
+}
+
+#delete-btn {
+  width: 30px;
+  color: white;
+  cursor: pointer;
+}
