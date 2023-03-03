@@ -5,9 +5,9 @@ class Todos {
 
   addTodo(todo) {
     this.todos.push(todo);
-  localStorage.setItem('todos', JSON.stringify(this.todos));
+    localStorage.setItem('todos', JSON.stringify(this.todos));
   }
-  
+
   updateTodo(id, newTodo) {
     this.todos[id - 1] = newTodo;
     for (let i = 0; i < this.todos.length; i += 1) {
