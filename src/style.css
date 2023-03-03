@@ -18,7 +18,7 @@ body {
 
 h1 {
   font-size: 1.5rem;
-  color: white;
+  color: black;
 }
 
 .flex {
@@ -35,7 +35,7 @@ h1 {
 
 i {
   font-size: 1.2rem;
-  color: rgb(116, 110, 110);
+  color: black;
 }
 
 input {
@@ -48,7 +48,7 @@ input {
 }
 
 .container {
-  background-color: gray;
+  background-color: white;
   width: 100%;
   max-width: 500px;
   box-shadow: 3px 10px 10px rgba(75, 72, 72, 0.219), -5px 0 7px rgba(75, 72, 72, 0.219);
@@ -95,23 +95,22 @@ form {
 .todo input {
   width: 90%;
   padding-left: 2.5rem;
-  color: purple;
+  color: black;
   font-size: larger;
 }
 
 .clear button {
-  color: white;
+  color: black;
   font-size: large;
-  font-weight: 800;
   border: none;
   width: 100%;
   padding: 1.4em 0;
-  background-color: rgb(0, 14, 14);
+  background-color: lightgrey;
   cursor: pointer;
 }
 
 #delete-btn {
   width: 30px;
-  color: white;
+  color: black;
   cursor: pointer;
 }
