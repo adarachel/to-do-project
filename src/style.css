@@ -106,7 +106,7 @@ form {
   width: 100%;
   padding: 1.4em 0;
   background-color: lightgrey;
-  cursor: pointer;
+  cursor: default;
 }
 
 #delete-btn {
