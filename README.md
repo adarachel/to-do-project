@@ -133,7 +133,7 @@ You can deploy this project using:
 ## 👤 Ada Rachel
 
 - GitHub: [@githubhandle](https://github.com/adarachel)
-- Twitter: [@twitterhandle](https://twitter.com/adarachel)
+- Twitter: [@twitterhandle](https://twitter.com/adarachel_dev)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/adarachel/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
